@@ -1,0 +1,64 @@
+<h4>Excellent Website</h4>
+<h5>Mary Stewart</h5>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<h6>2021/03/24</h6>
+<p>I love all the activities you have here. My kids enjoyed playing all day.</p>
+<p>I love using Keep Them Busy because of how easy the platform is to use. 
+Their shop is also amazing!</p>
+<br>
+<h4>Plusieurs jeux</h4>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<h5>Jean Valjean</h5>
+<h6>2021/04/29</h6>
+<p>J'ai essayé ces jeux pendant quelques semaines maintenant. Parfois, il faut plusieurs 
+jeux pour que les enfants se fatiguent, d'autres fois, il n'en faut qu'un. Ils aiment 
+certains, d'autres moins.</p>
+<p>A recommander absolument.</p>
+<br>
+<h4>Super activities</h4>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<h5>Jane Doe</h5>
+<h6>2021/08/14</h6>
+<p>I did all the activities with my kids. They played all day outside with your 
+outdoors ideas.</p>
+<p>This activities help connect me with the most amazing people! Group activities, 
+whereby students work in teams, are a great way to foster team-building and can 
+also help students with test prep.</p>
+<br>
+<h4>The best ideas</h4>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<h5>Louise M. Alcott</h5>
+<h6>2022/02/23</h6>
+<p>My kids loved the arts and crafts.They have a lot of fun doing bracelets.</p>
+<p>When I saw this option, I immediately thought of the ease of placing a few of 
+the containers in a Christmas Stocking. Our grandchildren still love to create 
+things with this modeling clay like substance.</p>
+<br>
+<h4>Lacks of Science stuff</h4>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<h5>Hanibal Lecter</h5>
+<h6>2022/03/01</h6>
+<p>I think you need more experiments. Like experiments with animals.</p>
+<p>It doesn't get much better than that, in my humble opinion. 
+How about you? Would you consider getting a Play Doh Party bag for your 
+children or grandchildren to play with? </p>

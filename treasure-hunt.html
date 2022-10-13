@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Keep Them Busy</title>
+    <meta name="description" content="Keep our kids busy with different fun and educational activities without screens">
+    <meta name="author" content="Quynh Ly, Marcelo, Xuan & Vivien">
+
+    <!-- Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link href="styles/custom.css" rel="stylesheet">
+
+    <!-- Custom JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="scripts/keep-them-busy.js"></script>
+    
+    <script src="scripts/info.js"></script>
+    
+    <!-- FavIcon -->
+    <link rel="icon" type="image/png" href="images/KTB-icon.png"/>
+</head>
+<body>
+    <img id="scroll-top" title="Go to top" alt="go to top button" src="images/to-top.png"/>
+    <div class="container">
+        <!-- Header -->
+        <div class="row">
+            <img src="images/KeepThemBusy.png" alt="Keep them busy logo">
+            <h2 class="text-center" style="color: var(--bs-blue)">Entertain & Educate Kids without Screen!</h2>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light my-3 py-1">
+            <div class="container-lg">
+                <a class="navbar-brand ms-3" href="./index.html">
+                    <img src="images/KTB-icon.png" alt="Keep Them Busy Icon" height="50" >
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item m-1">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        
+                        <li class="nav-item dropdown m-1">
+                            <a class="nav-link dropdown-toggle" href="indoor-activities.html" id="indoorDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Activities
+                            </a>
+                                <ul class="dropdown-menu" aria-labelledby="indoorDropdown">
+                                    <li><a class="dropdown-item h5" href="indoor-activities.html">Indoor Activities</a></li>
+                                    <li><hr class="drowdown-divider"></li>
+                                    <li><a class="dropdown-item" href="indoor-educational.html">Educational</a></li>
+                                    <li><a class="dropdown-item" href="indoor-fun.html">Just For Fun</a></li>
+                                    <li><hr class="drowdown-divider text-primary py-1 bg-primary"></li>
+                                    <li><a class="dropdown-item h5" href="outdoor-activities.html">Outdoor Activities</a></li>
+                                <li><hr class="drowdown-divider"></li>
+                                <li><a class="dropdown-item" href="physicals.html">Physical</a></li>
+                                <li><a class="dropdown-item" href="arts-crafts.html">Arts & Crafts</a></li>
+                                </ul>
+                        </li>
+                        <li class="nav-item dropdown m-1">
+                            <a class="nav-link" href="shop.html">
+                                Shop
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown m-1">
+                            <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                About
+                            </a>
+                              <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+                                <li><a class="dropdown-item" href="about-us.html">About Us</a></li>
+                                <li><a class="dropdown-item" href="contact-us.html">Contact Us</a></li>
+                                <li><a class="dropdown-item" href="subscribe.html">Subscribe</a></li>
+                                <li><a class="dropdown-item" href="privacy-policy.html">Privacy Policy</a></li>
+                              </ul>                        
+                        <li class="nav-item m-1">
+                            <a class="nav-link language" href="./fr/chasse-tresor.html">FR</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-primary" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    <!-- main article  -->
+    <div class="m-1 mx-sm-1 my-sm-1 mx-lg-5 my-lg-3 p-1 p-sm-5">
+      <!-- title -->
+      <h1 class="" style="color: var(--bs-purple)">
+        Treasure Hunt
+      </h1>
+      <hr />
+      <!-- top image  -->
+      <img src="images/treasure-hunt.jpg" class="rounded mx-auto d-block img-fluid p-1 p-sm-5 " alt="Kids racing in Potato Sacks">
+      <h3 style="color: var(--bs-blue)">What do you need:</h3>
+      <p>Pieces of paper cotaining the riddles or questions for the objects.</p>
+      <h3 style="color: var(--bs-blue)">How do you play it:</h3>
+      <p>Here's how it works. Well ahead of time, the adult writes down clues for the objects 
+        the kids should find, then distributes them hidding or placing them in the mentioned 
+        objects so that one clue leads to another, culminating in some "treasure" at the end. 
+        Then the fun begins! If the children are old enough, they read the clues. Some adult 
+        helps with hard words and gives extra clues if necessary.</p>
+      <h3 style="color: var(--bs-blue)">Tips:</h3>        
+      <p>The treasure hunt is especially fun with school-age kids who can read the clues themselves, 
+        though they may occasionally need help. Treasure hunt clues are more fun if they require 
+        a bit of solving. Puns and rhymes add to the fun.</p> 
+      <h3 style="color: var(--bs-blue)">Notes:</h3>    
+      <p>Here are 10 clues to get you started, all involving common outdoor objects. You can 
+        copy and paste these to save time. Answers are at the end. You can also use these as a 
+        starting point to create your list, customized for your outdoor environment. </p>
+      <ol>
+          <li>I'm a friend to parents who like things neat.<br>
+            They really like it when you wipe your feet.</li>
+          <li>I give privacy from the folks next door.<br>
+            If you have bad neighbors, you need me more.</li>
+          <li>Everyone loves me. I'm pretty and smell sweet.<br>
+            Look down to find me! I'm near your feet.</li>
+          <li>I swing out and in to let you through.<br>
+            I sometimes creak, and that's your last clue.</li>
+          <li>On me, you can speed like a bird in the sky.<br>
+            My two wheels will make you fly!</li>
+          <li>I sit very still when I don't have a rider.<br>
+            Sit down and learn why I'm called a glider.</li>
+          <li>I have a ring, but you can't wear it.<br>
+            Sometimes so loud that you can't bear it.</li>
+          <li>I'm sort of like sneakers, but for a car.<br>
+            I help it run really fast and far.</li>
+          <li>In day I store the light of the sun.<br>
+            At night I shine when the day is done.</li>
+          <li>I'm like a small house, but no one lives in me.<br>
+            Tools and gadgets are all you will see.</li>
+      </ol>
+      <p>Answers:<br>
+          1. Doormat 2. Fence 3. Flowers 4. Garden gate 5. Bicycle <br>
+          6. Garden glider 7. Doorbell 8. Car tire 9. Solar light 10. Tool box</p>
+    </div>
+    <!-- end of main article  -->
+
+        <!-- Footer -->
+        <nav class="navbar navbar-expand-md navbar-light bg-light p-3" style="flex-wrap: wrap;">
+
+            <!-- Indoor Activities -->
+            <div class="col-lg-3 col-md-6 col-12 p-sm-2">
+                <div class="d-flex">
+                    <h5>
+                        <a href="indoor-activities.html" style="text-decoration: none;">Indoor Activities</a>
+                    </h5>
+                    <button class="navbar-toggler" style="border: none; color: var(--bs-blue)" type="button" data-bs-toggle="collapse" data-bs-target="#indoorFooter" aria-controls="indoorFooter" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="dropdown-toggle "></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="indoorFooter">
+                    <ul class="nav flex-column">
+                        <li><a class="nav-item nav-link" href="indoor-educational.html">Educational</a></li>
+                        <li><a class="nav-item nav-link" href="indoor-fun.html">Funs</a></li>
+                    </ul>
+                    </div>
+            </div>
+            <!-- Outdoor Activities -->
+            <div class="col-lg-3 col-md-6 col-12 p-sm-2">
+                <div class="d-flex">
+                    <h5>
+                        <a href="outdoor-activities.html" style="text-decoration: none;">Outdoor Activities</a>
+                    </h5>
+                    <button class="navbar-toggler" style="border: none; color: var(--bs-blue)" type="button" data-bs-toggle="collapse" data-bs-target="#outdoorFooter" aria-controls="outdoorFooter" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="dropdown-toggle "></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="outdoorFooter">
+                    <ul class="nav flex-column">
+                        <li><a class="nav-item nav-link" href="physicals.html">Physicals</a></li>
+                        <li><a class="nav-item nav-link" href="arts-crafts.html">Arts & Crafts</a></li>
+                    </ul>
+                    </div>
+            </div>
+            <!-- Information -->
+            <div class="col-lg-3 col-md-6 col-12 p-sm-2">
+                <div class="d-flex">
+                    <h5>
+                        Information
+                    </h5>
+                    <button class="navbar-toggler" style="border: none; color: var(--bs-black)" type="button" data-bs-toggle="collapse" data-bs-target="#infoFooter" aria-controls="infoFooter" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="dropdown-toggle "></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="infoFooter">
+                    <ul class="nav flex-column">
+                        <li><a class="nav-item nav-link" href="subscribe.html">Subscribe</a></li>
+                        <li><a class="nav-item nav-link" href="privacy-policy.html">Privacy Policy</a></li>
+                    </ul>
+                    </div>
+            </div>
+            <!-- About -->
+            <div class="col-lg-3 col-md-6 col-12 p-sm-2">
+                <div class="d-flex">
+                    <h5>
+                        About
+                    </h5>
+                    <button class="navbar-toggler" style="border: none; color: var(--bs-black)" type="button" data-bs-toggle="collapse" data-bs-target="#aboutFooter" aria-controls="aboutFooter" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="dropdown-toggle "></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="aboutFooter">
+                    <ul class="nav flex-column">
+                        <li><a class="nav-item nav-link" href="about-us.html">About Us</a></li>
+                        <li><a class="nav-item nav-link" href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- KTB info column -->
+        <div class="col-lg-12 col-12 p-sm-2">
+            <div class="">
+                <ul class="list-unstyled small text-muted text-center">
+                    <li>
+                        <a href="./index.html">
+                            <img src="images/KeepThemBusy-small.png" alt="Keep Them Busy logo" width="250" class="pb-3"/>
+                        </a>
+                    </li>
+                    <li class="mx-3">
+                        Designed and developed with all the love for children 
+                        to learn and to have fun without screens by 
+                        <a href="./about-us.html">Keep Them Busy team</a>.
+                    </li>
+                    <li class="my-3 d-flex justify-content-center">
+                        <div class="d-flex">
+                            <img src="images/follow-us.png" alt="Follow us" title="Follow Us" class="ps-2 pe-3">
+                            <a href="#">
+                                <img src="images/Instagram.png" alt="Instagram" title="KTB Instagram" class="px-3">
+                            </a>
+                            <a href="#">
+                                <img src="images/facebook.png" alt="Facebook" title="KTB Facebook" class="px-3">
+                            </a>
+                            <a href="#">
+                                <img src="images/pinterest.png" alt="Pinterest" title="KTB Pinterest" class="px-3">
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+      
+</body>
+</html>

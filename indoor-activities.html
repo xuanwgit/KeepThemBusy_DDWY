@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Keep Them Busy - Indoor Fun & Educational Activities</title>
+    <meta name="description" content="Some indoor activities to Keep Them Busy">
+    <meta name="author" content="Quynh Ly, Marcelo, Xuan & Vivien">
+
+    <!-- Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link href="styles/custom.css" rel="stylesheet">
+    <!-- Custom JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="scripts/keep-them-busy.js"></script>
+    
+    <script src="scripts/info.js"></script>
+    
+    <!-- FavIcon -->
+    <link rel="icon" type="image/png" href="images/KTB-icon.png"/>
+</head>
+<body>
+    <img id="scroll-top" title="Go to top" alt="go to top button" src="images/to-top.png"/>
+    <div class="container">
+        <!-- Header -->
+        <div class="row">
+            <img src="images/KeepThemBusy.png" alt="Keep them busy logo">
+            <h2 class="text-center" style="color: var(--bs-blue)">Entertain & Educate Kids without Screen!</h2>
+        </div>
+        <!-- Navigation bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light my-3 py-1">
+            <div class="container-lg">
+                <a class="navbar-brand ms-3" href="./index.html">
+                    <img src="images/KTB-icon.png" alt="Keep Them Busy Icon" height="50" >
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item m-1">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        
+                        <li class="nav-item dropdown m-1">
+                            <a class="nav-link dropdown-toggle" href="indoor-activities.html" id="indoorDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Activities
+                            </a>
+                                <ul class="dropdown-menu" aria-labelledby="indoorDropdown">
+                                    <li><a class="dropdown-item h5" href="indoor-activities.html">Indoor Activities</a></li>
+                                    <li><hr class="drowdown-divider"></li>
+                                    <li><a class="dropdown-item" href="indoor-educational.html">Educational</a></li>
+                                    <li><a class="dropdown-item" href="indoor-fun.html">Just For Fun</a></li>
+                                    <li><hr class="drowdown-divider text-primary py-1 bg-primary"></li>
+                                    <li><a class="dropdown-item h5" href="outdoor-activities.html">Outdoor Activities</a></li>
+                                <li><hr class="drowdown-divider"></li>
+                                <li><a class="dropdown-item" href="physicals.html">Physical</a></li>
+                                <li><a class="dropdown-item" href="arts-crafts.html">Arts & Crafts</a></li>
+                                </ul>
+                        </li>
+                        <li class="nav-item dropdown m-1">
+                            <a class="nav-link" href="shop.html">
+                                Shop
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown m-1">
+                            <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                About
+                            </a>
+                              <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+                                <li><a class="dropdown-item" href="about-us.html">About Us</a></li>
+                                <li><a class="dropdown-item" href="contact-us.html">Contact Us</a></li>
+                                <li><a class="dropdown-item" href="subscribe.html">Subscribe</a></li>
+                                <li><a class="dropdown-item" href="privacy-policy.html">Privacy Policy</a></li>
+                              </ul>                        
+                        <li class="nav-item m-1">
+                            <a class="nav-link language" href="./fr/activites-interieures.html">FR</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-primary" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Summary -->
+        <div class="jumbotron jumbotron-fluid">
+            <!-- title -->
+            <div class="mx-auto py-1 py-sm-5" style="max-width: 72rem; max-height:36rem;">
+                <h1 class="" style="color: var(--bs-purple)">
+                    Indoor Activities
+                </h1>
+                <p>
+                    Here are some fun and educational indoor activities for your kids.
+                </p>
+                <hr />
+            </div>
+            <!-- Activity 1 -->
+            <div class="card text-white bg-secondary mb-4 mx-auto" style="max-width: 72rem; max-height:36rem;">
+                <div class="row p-4">
+                    <div class="col-md-6">
+                        <a href="./playdough-maze.html">
+                            <img class="img-fluid" src="images/playdough-maze.jpg" alt="Bath Bombs">
+                        </a>
+                    </div>
+                    <div class="col-md-6 my-auto px-0">
+                        <div class="card-body px-0">
+                            <h4 class="card-title text-white font-weight-bold px-3 mt-2">Playdough Maze with Straw</h4>
+                            <span class="d-inline-block text-white px-3">
+                                Kids love playdough and they love maze.  Why not combining both and make a maze out of playdough?
+                            </span>
+                            <a class="btn btn-primary my-4 mx-3" href="./playdough-maze.html" role="button">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Activity 2 -->
+            <div class="card text-dark bg-white mb-4 mx-auto" style="max-width: 72rem; max-height:36rem;">
+                <div class="row p-4">
+                    <div class="col-md-6 order-sm-1 order-md-2">
+                        <a href="./DIY-Catapult.html">
+                            <img class="img-fluid" src="images/Catapult-6x4.jpg" alt="Catapult for kids">
+                        </a>
+                    </div>
+                    <div class="col-md-6 order-sm-2 order-md-1 px-0 my-auto">
+                        <div class="card-body px-0">
+                            <h4 class="card-title text-dark font-weight-bold px-3 mt-2">DIY Catapult for Kids</h4>
+                            <span class="d-inline-block text-dark px-3">
+                                This is a STEM project to build a catapult with given supplies without instructions. 
+                                The kids get to be engineers and truly have to think in order to complete the given task.
+                            </span>
+                            <a class="btn btn-outline-primary my-4 mx-3" href="./DIY-Catapult.html" role="button">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Activity 3 -->
+            <div class="card text-white bg-secondary mb-4 mx-auto" style="max-width: 72rem; max-height:36rem;">
+                <div class="row p-4">
+                    <div class="col-md-6">
+                        <a href="./Build-a-bridge.html">
+                            <img class="img-fluid" src="images/Bridge-6x4.jpg" alt="Bridge built with straws and pins">
+                        </a>
+                    </div>
+                    <div class="col-md-6 my-auto px-0">
+                        <div class="card-body px-0">
+                            <h4 class="card-title text-white font-weight-bold px-3 mt-2">Building a Bridge with Straws</h4>
+                            <span class="d-inline-block text-white px-3">
+                                Build a bridge out of straws and straight pins that can support the weight of 100 pennies in a small cup. Building a strong and stable structure requires an understanding of the forces that will act on the structure under loads of various kinds.
+                            </span>
+                            <a class="btn btn-primary my-4 mx-3" href="./Build-a-Bridge.html" role="button">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+            <!-- Activity 4 -->
+            <div class="card text-dark bg-white mb-4 mx-auto" style="max-width: 72rem; max-height:36rem;">
+                <div class="row p-4">
+                    <div class="col-md-6 order-sm-1 order-md-2">
+                        <a href="salty-ice.html">
+                            <img class="img-fluid" src="images/Icecube-6x4.jpg" alt="Ice Cube Melted with Salt">
+                        </a>
+                    </div>
+                    <div class="col-md-6 order-sm-2 order-md-1 px-0 my-auto">
+                        <div class="card-body px-0">
+                            <h4 class="card-title text-dark font-weight-bold px-3 mt-2">Salty Ice</h4>
+                            <span class="d-inline-block text-dark px-3">
+                                ‘Salty Ice’ is a great science activity for kids that will teach them how the freezing point of water can be lowered with salt! Kids will learn about the physical properties of water by the end of the fun science activity.
+                            </span>
+                            <a class="btn btn-outline-primary my-4 mx-3" href="salty-ice.html" role="button">
+                                Read more
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Activity 5 -->
+            <div class="card text-white bg-secondary mb-4 mx-auto" style="max-width: 72rem; max-height:36rem;">
+                <div class="row p-4">
+                    <div class="col-md-6">
+                        <a href="./craft-stick-bracelets.html">
+                            <img class="img-fluid" src="images/craft-stick-bracelet.jpg" alt="Bath Bombs">
+                        </a>
+                    </div>
+                    <div class="col-md-6 my-auto px-0">
+                        <div class="card-body px-0">
+                            <h4 class="card-title text-white font-weight-bold px-3 mt-2">Craft Stick Bracelets</h4>
+                            <span class="d-inline-block text-white px-3">
+                                Most of us have made bracelets, but I believe most of us have not tried to make bracelets with craft sticks.
+                                I did not even know it is possible. Come check out how to make them.
+                            </span>
+                            <a class="btn btn-primary my-4 mx-3" href="./craft-stick-bracelets.html" role="button">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Activity 6 -->
+            <div class="card text-dark bg-white mb-4 mx-auto" style="max-width: 72rem; max-height:36rem;">
+                <div class="row p-4">
+                    <div class="col-md-6 order-sm-1 order-md-2">
+                        <a href="./bath-bombs.html">
+                            <img class="img-fluid" src="images/bath-bombs.jpg" alt="Bath Bombs">
+                        </a>
+                    </div>
+                    <div class="col-md-6 order-sm-2 order-md-1 px-0">
+                        <div class="card-body px-0">
+                            <h4 class="card-title text-dark font-weight-bold px-3 pt-2">DIY Bath Bombs</h4>
+                            <span class="d-inline-block text-dark px-3">
+                            Bath bombs are so popular now, but they are so expensive too. 
+                                Here are some simple and natural ingredients you can use to make your own bath bombs with the kids.
+                            </span>
+                            <a class="btn btn-outline-primary my-4 mx-3" href="./bath-bombs.html" role="button">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Activity 7 -->
+            <div class="card text-white bg-secondary mb-4 mx-auto" style="max-width: 72rem; max-height:36rem;">
+                <div class="row p-4">
+                    <div class="col-md-6">
+                        <a href="./Five-Coolest-Things-Coke.html">
+                            <img class="img-fluid" src="images/Coke-6x4.jpg" alt="Coke Geyser">
+                        </a>
+                    </div>
+                    <div class="col-md-6 my-auto px-0">
+                        <div class="card-body px-0">
+                            <h4 class="card-title text-white font-weight-bold px-3 mt-2">5 Coolest Things With Coke</h4>
+                            <span class="d-inline-block text-white px-3">
+                                Making Chemistry reactions with Coca-cola and other materials to create observable phenomena. This experiment introduces the basic knowledge of chemistry, understanding of the changes of the material like colors and phases etc.
+                            </span>
+                            <a class="btn btn-primary my-4 mx-3" href="./Five-Coolest-Things-Coke.html" role="button">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Activity 8 -->
+            <div class="card text-dark bg-white mb-4 mx-auto" style="max-width: 72rem; max-height:36rem;">
+                <div class="row p-4">
+                    <div class="col-md-6 order-sm-1 order-md-2">
+                        <a href="./marshmallow-constellations.html">
+                            <img class="img-fluid" src="images/marshmallow-constellations.jpg" alt="Bath Bombs">
+                        </a>
+                    </div>
+                    <div class="col-md-6 order-sm-2 order-md-1 px-0">
+                        <div class="card-body px-0">
+                            <h4 class="card-title text-dark font-weight-bold px-3 pt-2">Marshmallow Constellations</h4>
+                            <span class="d-inline-block text-dark px-3">
+                                Most kids love marshallows and stars. Isn't it a good way to make them learn some constellations while eating marshallows?
+                            </span>
+
+                            <a class="btn btn-outline-primary my-4 mx-3" href="./marshmallow-constellations.html" role="button">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    
+        <!-- Footer -->
+        <nav class="navbar navbar-expand-md navbar-light bg-light p-3" style="flex-wrap: wrap;">
+
+            <!-- Indoor Activities -->
+            <div class="col-lg-3 col-md-6 col-12 p-sm-2">
+                <div class="d-flex">
+                    <h5>
+                        <a href="indoor-activities.html" style="text-decoration: none;">Indoor Activities</a>
+                    </h5>
+                    <button class="navbar-toggler" style="border: none; color: var(--bs-blue)" type="button" data-bs-toggle="collapse" data-bs-target="#indoorFooter" aria-controls="indoorFooter" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="dropdown-toggle "></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="indoorFooter">
+                    <ul class="nav flex-column">
+                        <li><a class="nav-item nav-link" href="indoor-educational.html">Educational</a></li>
+                        <li><a class="nav-item nav-link" href="indoor-fun.html">Funs</a></li>
+                    </ul>
+                    </div>
+            </div>
+            <!-- Outdoor Activities -->
+            <div class="col-lg-3 col-md-6 col-12 p-sm-2">
+                <div class="d-flex">
+                    <h5>
+                        <a href="outdoor-activities.html" style="text-decoration: none;">Outdoor Activities</a>
+                    </h5>
+                    <button class="navbar-toggler" style="border: none; color: var(--bs-blue)" type="button" data-bs-toggle="collapse" data-bs-target="#outdoorFooter" aria-controls="outdoorFooter" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="dropdown-toggle "></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="outdoorFooter">
+                    <ul class="nav flex-column">
+                        <li><a class="nav-item nav-link" href="physicals.html">Physicals</a></li>
+                        <li><a class="nav-item nav-link" href="arts-crafts.html">Arts & Crafts</a></li>
+                    </ul>
+                    </div>
+            </div>
+            <!-- Information -->
+            <div class="col-lg-3 col-md-6 col-12 p-sm-2">
+                <div class="d-flex">
+                    <h5>
+                        Information
+                    </h5>
+                    <button class="navbar-toggler" style="border: none; color: var(--bs-black)" type="button" data-bs-toggle="collapse" data-bs-target="#infoFooter" aria-controls="infoFooter" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="dropdown-toggle "></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="infoFooter">
+                    <ul class="nav flex-column">
+                        <li><a class="nav-item nav-link" href="subscribe.html">Subscribe</a></li>
+                        <li><a class="nav-item nav-link" href="privacy-policy.html">Privacy Policy</a></li>
+                    </ul>
+                    </div>
+            </div>
+            <!-- About -->
+            <div class="col-lg-3 col-md-6 col-12 p-sm-2">
+                <div class="d-flex">
+                    <h5>
+                        About
+                    </h5>
+                    <button class="navbar-toggler" style="border: none; color: var(--bs-black)" type="button" data-bs-toggle="collapse" data-bs-target="#aboutFooter" aria-controls="aboutFooter" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="dropdown-toggle "></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="aboutFooter">
+                    <ul class="nav flex-column">
+                        <li><a class="nav-item nav-link" href="about-us.html">About Us</a></li>
+                        <li><a class="nav-item nav-link" href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- KTB info column -->
+        <div class="col-lg-12 col-12 p-sm-2">
+            <div class="">
+                <ul class="list-unstyled small text-muted text-center">
+                    <li>
+                        <a href="./index.html">
+                            <img src="images/KeepThemBusy-small.png" alt="Keep Them Busy logo" width="250" class="pb-3"/>
+                        </a>
+                    </li>
+                    <li class="mx-3">
+                        Designed and developed with all the love for children 
+                        to learn and to have fun without screens by 
+                        <a href="./about-us.html">Keep Them Busy team</a>.
+                    </li>
+                    <li class="my-3 d-flex justify-content-center">
+                        <div class="d-flex">
+                            <img src="images/follow-us.png" alt="Follow us" title="Follow Us" class="ps-2 pe-3">
+                            <a href="#">
+                                <img src="images/Instagram.png" alt="Instagram" title="KTB Instagram" class="px-3">
+                            </a>
+                            <a href="#">
+                                <img src="images/facebook.png" alt="Facebook" title="KTB Facebook" class="px-3">
+                            </a>
+                            <a href="#">
+                                <img src="images/pinterest.png" alt="Pinterest" title="KTB Pinterest" class="px-3">
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+      
+</body>
+</html>
