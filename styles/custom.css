@@ -1,0 +1,285 @@
+@charset 'utf-8';
+
+/* Developed by: Quynh Ly Do
+                 Marcelo Di Liscia
+                 Xuan Want
+                 Vivien Yep
+   Script Date:  Feb 10, 2022
+*/
+:root {
+    --custom-bg-blue:rgba(101, 209, 236, 0.8);
+    --custom-summary-header:rgba(135, 16, 190, 0.8);
+}
+
+/* ********** HOME ******** */
+/* Navigation bar colors */
+.navbar-nav {
+    padding: 0px 10px;
+}
+
+.navbar-nav a {
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .dropdown-item {
+    color: var(--bs-blue);
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.navbar-nav a:hover {
+    background-color: var(--custom-bg-blue);
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: var(--bs-purple);
+}
+
+/* Carousel */
+.carousel {
+    position: relative;
+}
+.slides {
+    display: none;
+    animation-name: fade-carousel;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade-carousel {
+    from {opacity: 0.2;}
+    to {opacity: 1.0;}
+}
+
+.carousel-img {
+    width: 100%;
+}
+
+.slide-description {
+    width: 100%;
+    padding: 20px 20px;
+    position: absolute;
+    bottom: 0px;
+    color: rgb(88, 88, 88);
+    background-color: rgba(210, 231, 236, 0.63);
+}
+
+
+.left-arrow, .right-arrow {
+    cursor: pointer;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 40%;
+    background-color: rgba(141, 141, 141, 0.438);
+    padding: 10px;
+}
+
+.right-arrow {
+    right: 0px;
+}
+
+.left-arrow:hover, .right-arrow:hover {
+    background-color: rgba(255, 255, 255, 0.87);
+    color: rgba(116, 114, 114, 0.438);
+}
+
+.dots {
+    bottom: 0px;
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    background-color: var(--bs-blue);
+    border-radius: 50%;
+    display: inline-block;
+    bottom: 15px;
+}
+
+.active-slide {
+    background-color: var(--custom-bg-blue);
+}
+
+.dot:hover {
+    background-color: white;
+}
+
+/* Main page gallery images */
+.gallery-img {
+    width: 100%;
+    animation-name: fade-gallery;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade-gallery {
+    0%   {opacity: 0.1;}
+    25%  {opacity: 0.2;}
+    75%  {opacity: 0.5;}
+    90%  {opacity: 0.8;}
+    100% {opacity: 1;}
+    }
+
+.gallery-text {
+    font-family: cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+    width:100%;
+    justify-content: center;
+    line-height: 110%;
+    width: 100%;
+    color:rgb(88, 88, 88);
+    padding: 0 5px;
+}
+
+.gallery-text:hover {
+    animation-name: hover-text;
+    animation-duration: 1s;
+}
+
+@keyframes hover-text{
+    0% {color: rgb(88, 88, 88);}
+    25%{color: rgb(120, 120, 120);}
+    50%{color: rgb(190, 190, 190);}
+    75%{color: rgb(130, 130, 130);}
+    100%{color: rgb(88, 88, 88);}
+}
+
+.gallery-color {
+    width: 100%;
+    display: none;
+    animation-name: fade-gallery;
+    animation-duration: 1.5s;
+}
+
+.gallery-img:hover,
+.gallery-color:hover {
+   animation-name: hover-gallery;
+   animation-duration: 1s;
+}
+
+@keyframes hover-gallery {
+    25%{transform: rotate(-5deg);}
+    100%{transform: rotate(5deg);}
+}
+
+/* Activities filter */
+.filter-img {
+    width: 100%;
+}
+
+.filter-img:hover {
+    animation-name: hover-filter;
+    animation-duration: 1.5s;
+}
+
+@keyframes hover-filter {
+    25%{transform: scale(1.0);}
+    75%{transform: scale(1.1);}
+}
+
+.filter-link {
+    text-decoration: none;
+}
+
+/* To align footer links*/
+a.nav-item.nav-link {
+    padding-left: 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.d-flex h5, span.dropdown-toggle {
+    color: var(--bs-blue);
+    font-size: medium;
+    text-decoration: underline;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* Scroll-to-top */
+#scroll-top {
+    cursor: pointer;
+    width: 72px;
+    height: 72px;
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 100;
+}
+
+/* ********** Summary Pages ******** */
+h1.custom-header{
+    color: var(--custom-summary-header);
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+/* ******** Contact Us ******* */
+.emailIcon:hover {
+    transition: all 2s ease;
+    transform: rotateY(360deg);
+}
+
+.custom-video {
+    max-width:600px;
+}
+
+
+/* ******** Shopping Cart ******** */
+
+.cart ion-icon {
+    vertical-align: bottom;
+    padding-right: 5px;
+    font-size: 25px;
+}
+
+.cart a {
+    background-color: rgb(212, 97, 155);
+    color: white;
+    cursor: none;
+    text-decoration: none;
+    padding-right: 2px;
+    font-size: 25px;
+}
+
+/* ******** Cart.html ******** */
+
+.product-container ion-icon {
+    font-size: 30px;
+    color: rgb(66, 66, 66);
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#cart {
+    cursor: pointer;
+}
+
+.game-img {
+    max-width: 120px;    
+
+}
+
+.trash {
+    font-size: 30px;
+    color: var(--bs-blue);
+}
+
+.numberBox {
+    font-size: large;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+  opacity: 1;
+}
